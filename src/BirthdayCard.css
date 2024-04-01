@@ -1,11 +1,13 @@
 .birthday-card {
-    width: 1200px;
+    width: 90vw;
+    height: 80vh;
     background-color:  #ff516bde;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 150px auto;
     text-align: center;
+    
     
   }
   

@@ -14,8 +14,8 @@ import img1 from "./asset/img1.jpg";
 import img2 from "./asset/img2.jpg";
 import img3 from "./asset/img3.jpg";
 import img4 from "./asset/img4.jpg";
-import img5 from "./asset/img5.jpg";
 import img6 from "./asset/img6.jpg";
+import yashdp from "./asset/dp22.jpg";
 import img7 from "./asset/img7.jpg";
 import img8 from "./asset/img8.jpg";
 import img9 from "./asset/img9.jpg";
@@ -66,7 +66,7 @@ const BirthdayMessage = () => {
     
     <div className="post">
       <div className="header">
-        <img className="avatar" src={img1} alt="Avatar" />
+        <img className="avatar" src={yashdp} alt="Avatar" />
         <span className="username">yashverma2202</span>
       </div>
 
@@ -79,7 +79,8 @@ const BirthdayMessage = () => {
       <div className="footer">
         <div className="likes">124M likes</div>
         <div className="caption">
-          <span className="username">yashverma2202</span> 
+          <span className="username">yashverma2202</span>
+          <div>Wishing you a cracking birthday my champ ❤️</div> 
         </div>
       </div>
     </div>
@@ -100,7 +101,7 @@ const BirthdayMessage = () => {
         <div className="likes">124M likes</div>
         <div className="caption">
           <span className="username">Sriya</span>
-          <div>Happy Birthday Simran Jenaaaaa..</div> 
+          <div>Happy Birthday Jenzuu😘♥😘😘💋</div> 
         </div>
       </div>
     </div>

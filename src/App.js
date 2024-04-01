@@ -5,6 +5,7 @@ import HomePage from './HomePage';
 
 import BirthdayMessage from './BirthdayMessage';
 import BirthdayCard from './BirthdayCard';
+import CountdownCard from './CountdownCard';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/birthday-card" element={<BirthdayCard name="Yash" />} />
           <Route path="/birthday-message" element={<BirthdayMessage />} />
-          
+          <Route path="/birthday" element={<CountdownCard/>}/>
         </Routes>
       </div>
     </HashRouter>
