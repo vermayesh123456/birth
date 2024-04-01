@@ -6,7 +6,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <a href="/">Happy Birthday</a>
+      <li><Link to="/"> {/* Use Link instead of <a> */}
+        <button type="button" className="btn btn-white">Happy Birthday</button>
+      </Link></li>
       </div>
       <ul className="nav-links">
         <li><Link to="/birthday"> {/* Use Link instead of <a> */}
