@@ -14,7 +14,7 @@ const Navbar = () => {
       </Link></li>
       </ul>
       <ul className="nav-links">
-        <li><Link to="/birthday-messagee"> {/* Use Link instead of <a> */}
+        <li><Link to="/birthday-message"> {/* Use Link instead of <a> */}
         <button type="button" className="btn btn-white">Surprise</button>
       </Link></li>
       </ul>
